@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-     "heroku-postbuild": "npm start" // this will be run on Heroku
+     "heroku-postbuild": "npm start"
   },
   "author": "",
   "description": "",
