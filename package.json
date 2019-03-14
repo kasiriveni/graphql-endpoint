@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+     "heroku-postbuild": "npm start" // this will be run on Heroku
   },
   "author": "",
   "description": "",
